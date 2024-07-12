@@ -1,0 +1,23 @@
+<div class="search-bar">
+  <div class="search-bar-input">
+    <mat-form-field>
+      <mat-label>Search</mat-label>
+      <input
+        type="text"
+        matInput
+        [formControl]="inputFormControl"
+        (focus)="inputFocused = true"
+        (blur)="inputFocused = false"
+      />
+    </mat-form-field>
+    @if (!recentSearchData?.length && inputFocused) {
+    <div class="search-bar-input-recent-search">
+      <span>Recent Search</span>
+    </div>
+    }
+  </div>
+
+  @if (showAddSymbolBtn()) {
+  <button mat-flat-button (click)="handleAddSymbol()">+ Add symbol</button>
+  }
+</div>

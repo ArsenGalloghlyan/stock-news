@@ -1,0 +1,22 @@
+.search-bar {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: center;
+
+  .mat-mdc-form-field {
+    min-width: 350px;
+  }
+
+  &-input {
+    display: flex;
+    flex-direction: column;
+
+    &-recent-search {
+      min-width: 350px;
+      height: 350px;
+      border: 1px solid white;
+      border-radius: 5px;
+    }
+  }
+}

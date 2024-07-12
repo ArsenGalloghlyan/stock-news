@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "title": "Tech Stocks Surge as Market Rebounds",
+    "description": "Tech stocks experienced a significant surge today as the market rebounded from recent losses. Leading companies like Apple, Microsoft, and Google saw their shares rise by more than 5%.",
+    "date": "2024-07-01",
+    "source": "Financial Times",
+    "url": "https://www.ft.com/content/tech-stocks-surge-market-rebounds",
+    "symbol": "AAPL, MSFT, GOOGL"
+  },
+  {
+    "id": 2,
+    "title": "Energy Sector Sees Decline Amid Rising Oil Prices",
+    "description": "The energy sector saw a decline in stock prices today as rising oil prices caused concerns about increased production costs. Major oil companies like ExxonMobil and Chevron reported lower than expected earnings.",
+    "date": "2024-07-02",
+    "source": "Reuters",
+    "url": "https://www.reuters.com/business/energy-sector-decline-oil-prices",
+    "symbol": "XOM, CVX"
+  },
+  {
+    "id": 3,
+    "title": "Healthcare Stocks Stable as Market Volatility Continues",
+    "description": "Healthcare stocks remained stable despite ongoing market volatility. Companies such as Pfizer and Johnson & Johnson reported steady earnings and positive outlooks for the next quarter.",
+    "date": "2024-07-02",
+    "source": "Wall Street Journal",
+    "url": "https://www.wsj.com/articles/healthcare-stocks-stable-market-volatility",
+    "symbol": "PFE, JNJ"
+  },
+  {
+    "id": 4,
+    "title": "Retail Sector Gains Momentum Ahead of Holiday Season",
+    "description": "The retail sector gained momentum today as investors anticipate a strong holiday shopping season. Companies like Amazon and Walmart saw their stock prices increase by over 3%.",
+    "date": "2024-07-01",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/retail-sector-gains-momentum-holiday-season",
+    "symbol": "AMZN, WMT"
+  },
+  {
+    "id": 5,
+    "title": "Financial Stocks Under Pressure as Interest Rates Rise",
+    "description": "Financial stocks are under pressure as rising interest rates cause concerns about borrowing costs and profitability. Major banks like JPMorgan Chase and Bank of America saw their stock prices drop.",
+    "date": "2024-07-02",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/financial-stocks-under-pressure-interest-rates-rise",
+    "symbol": "JPM, BAC"
+  },
+  {
+    "id": 6,
+    "title": "Automotive Industry Faces Supply Chain Challenges",
+    "description": "The automotive industry is facing significant supply chain challenges, causing delays in production. Companies like Ford and General Motors are working to mitigate the impact.",
+    "date": "2024-07-03",
+    "source": "Automotive News",
+    "url": "https://www.autonews.com/supply-chain/automotive-industry-faces-supply-chain-challenges",
+    "symbol": "F, GM"
+  },
+  {
+    "id": 7,
+    "title": "Telecom Stocks Rise Amidst 5G Expansion",
+    "description": "Telecom stocks are on the rise as the rollout of 5G technology continues to expand. Companies such as Verizon and AT&T are leading the charge in deploying 5G networks across the country.",
+    "date": "2024-07-03",
+    "source": "TechCrunch",
+    "url": "https://www.techcrunch.com/telecom-stocks-rise-5g-expansion",
+    "symbol": "VZ, T"
+  },
+  {
+    "id": 8,
+    "title": "Consumer Goods Stocks Benefit from Increased Spending",
+    "description": "Consumer goods stocks are benefiting from increased consumer spending. Brands like Procter & Gamble and Unilever reported higher sales and positive earnings.",
+    "date": "2024-07-03",
+    "source": "MarketWatch",
+    "url": "https://www.marketwatch.com/consumer-goods-stocks-benefit-increased-spending",
+    "symbol": "PG, UL"
+  },
+  {
+    "id": 9,
+    "title": "Travel and Leisure Stocks Rebound as Tourism Picks Up",
+    "description": "Travel and leisure stocks are rebounding as tourism picks up. Companies such as Booking Holdings and Expedia are seeing increased bookings and positive market responses.",
+    "date": "2024-07-03",
+    "source": "Travel Weekly",
+    "url": "https://www.travelweekly.com/travel-and-leisure-stocks-rebound-tourism-picks-up",
+    "symbol": "BKNG, EXPE"
+  },
+  {
+    "id": 10,
+    "title": "Pharmaceutical Stocks Gain on Positive Trial Results",
+    "description": "Pharmaceutical stocks are gaining momentum following positive results from clinical trials. Companies like Moderna and BioNTech are seeing significant stock price increases.",
+    "date": "2024-07-03",
+    "source": "Pharma Times",
+    "url": "https://www.pharmatimes.com/pharmaceutical-stocks-gain-positive-trial-results",
+    "symbol": "MRNA, BNTX"
+  },
+  {
+    "id": 11,
+    "title": "Semiconductor Stocks Climb as Chip Shortage Eases",
+    "description": "Semiconductor stocks are climbing as the global chip shortage shows signs of easing. Companies like Intel and AMD reported increased production and higher revenues.",
+    "date": "2024-07-04",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/semiconductor-stocks-climb-chip-shortage-eases",
+    "symbol": "INTC, AMD"
+  },
+  {
+    "id": 12,
+    "title": "E-commerce Stocks Rally on Strong Online Sales",
+    "description": "E-commerce stocks are rallying due to strong online sales figures. Companies such as Shopify and eBay are reporting record-breaking revenue from increased consumer spending online.",
+    "date": "2024-07-04",
+    "source": "TechCrunch",
+    "url": "https://www.techcrunch.com/e-commerce-stocks-rally-strong-online-sales",
+    "symbol": "SHOP, EBAY"
+  },
+  {
+    "id": 13,
+    "title": "Renewable Energy Stocks Surge on Government Incentives",
+    "description": "Renewable energy stocks are surging as governments introduce new incentives for clean energy projects. Companies like Tesla and NextEra Energy are seeing significant growth in stock prices.",
+    "date": "2024-07-04",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/renewable-energy-stocks-surge-government-incentives",
+    "symbol": "TSLA, NEE"
+  },
+  {
+    "id": 14,
+    "title": "Real Estate Stocks Boosted by Housing Market Recovery",
+    "description": "Real estate stocks are getting a boost from the housing market's recovery. Companies such as Zillow and Redfin are seeing increased activity and higher valuations.",
+    "date": "2024-07-04",
+    "source": "Reuters",
+    "url": "https://www.reuters.com/real-estate-stocks-boosted-housing-market-recovery",
+    "symbol": "Z, RDFN"
+  },
+  {
+    "id": 15,
+    "title": "Social Media Stocks Rise on Increased User Engagement",
+    "description": "Social media stocks are rising as platforms report increased user engagement and advertising revenue. Companies like Facebook and Twitter are seeing positive market reactions.",
+    "date": "2024-07-04",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/social-media-stocks-rise-increased-user-engagement",
+    "symbol": "FB, TWTR"
+  },
+  {
+    "id": 16,
+    "title": "Electric Vehicle Stocks Charge Ahead with New Models",
+    "description": "Electric vehicle stocks are charging ahead as new models are introduced to the market. Companies such as NIO and Rivian are experiencing significant stock price increases.",
+    "date": "2024-07-05",
+    "source": "Automotive News",
+    "url": "https://www.autonews.com/electric-vehicle-stocks-charge-ahead-new-models",
+    "symbol": "NIO, RIVN"
+  },
+  {
+    "id": 17,
+    "title": "Biotech Stocks Surge on Breakthrough Therapies",
+    "description": "Biotech stocks are surging following announcements of breakthrough therapies. Companies like Regeneron and Vertex Pharmaceuticals are seeing substantial gains.",
+    "date": "2024-07-05",
+    "source": "Pharma Times",
+    "url": "https://www.pharmatimes.com/biotech-stocks-surge-breakthrough-therapies",
+    "symbol": "REGN, VRTX"
+  },
+  {
+    "id": 18,
+    "title": "Aerospace Stocks Lifted by Increased Air Travel",
+    "description": "Aerospace stocks are being lifted by a rise in air travel demand. Companies like Boeing and Lockheed Martin are reporting increased orders and higher stock prices.",
+    "date": "2024-07-05",
+    "source": "Aviation Week",
+    "url": "https://www.aviationweek.com/aerospace-stocks-lifted-increased-air-travel",
+    "symbol": "BA, LMT"
+  },
+  {
+    "id": 19,
+    "title": "Fintech Stocks Gain on Digital Banking Growth",
+    "description": "Fintech stocks are gaining traction as digital banking services grow in popularity. Companies such as Square and PayPal are reporting higher transaction volumes and stock price increases.",
+    "date": "2024-07-05",
+    "source": "Financial Times",
+    "url": "https://www.ft.com/fintech-stocks-gain-digital-banking-growth",
+    "symbol": "SQ, PYPL"
+  },
+  {
+    "id": 20,
+    "title": "Entertainment Stocks Up as Streaming Services Expand",
+    "description": "Entertainment stocks are up as streaming services continue to expand their offerings and subscriber bases. Companies like Netflix and Disney are seeing positive market reactions.",
+    "date": "2024-07-05",
+    "source": "Variety",
+    "url": "https://www.variety.com/entertainment-stocks-up-streaming-services-expand",
+    "symbol": "NFLX, DIS"
+  },
+  {
+    "id": 21,
+    "title": "Tech Giants Invest in AI Startups",
+    "description": "Major tech giants are investing heavily in AI startups to stay ahead in the technology race. Companies like Alphabet and Amazon are leading the investment wave.",
+    "date": "2024-07-06",
+    "source": "TechCrunch",
+    "url": "https://www.techcrunch.com/tech-giants-invest-in-ai-startups",
+    "symbol": "GOOGL, AMZN"
+  },
+  {
+    "id": 22,
+    "title": "Pharmaceutical Companies See Stock Boost from FDA Approvals",
+    "description": "Pharmaceutical companies are seeing their stocks rise following FDA approvals for new drugs. Companies such as Merck and Bristol-Myers Squibb are benefiting from these regulatory milestones.",
+    "date": "2024-07-06",
+    "source": "Pharma Times",
+    "url": "https://www.pharmatimes.com/pharmaceutical-companies-stock-boost-fda-approvals",
+    "symbol": "MRK, BMY"
+  },
+  {
+    "id": 23,
+    "title": "Luxury Goods Stocks Soar as Consumer Spending Increases",
+    "description": "Luxury goods stocks are soaring as consumer spending on high-end products increases. Companies like LVMH and Hermes are reporting higher sales and improved profit margins.",
+    "date": "2024-07-06",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/luxury-goods-stocks-soar-consumer-spending",
+    "symbol": "LVMH, RMS"
+  },
+  {
+    "id": 24,
+    "title": "Tech Hardware Stocks Gain Amid Supply Chain Improvements",
+    "description": "Tech hardware stocks are gaining as supply chain issues begin to resolve. Companies such as Apple and Samsung are seeing positive impacts on their stock prices.",
+    "date": "2024-07-06",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech-hardware-stocks-gain-supply-chain-improvements",
+    "symbol": "AAPL, SSNLF"
+  },
+  {
+    "id": 25,
+    "title": "Banking Stocks Benefit from Rising Interest Rates",
+    "description": "Banking stocks are benefiting from rising interest rates, which are expected to improve their profit margins. Companies like Goldman Sachs and Wells Fargo are leading the gains.",
+    "date": "2024-07-06",
+    "source": "Financial Times",
+    "url": "https://www.ft.com/banking-stocks-benefit-rising-interest-rates",
+    "symbol": "GS, WFC"
+  },
+  {
+    "id": 26,
+    "title": "Automotive Stocks Accelerate on Electric Vehicle Adoption",
+    "description": "Automotive stocks are accelerating as electric vehicle adoption increases. Companies like Tesla and General Motors are expanding their EV lineups and seeing stock price gains.",
+    "date": "2024-07-06",
+    "source": "Automotive News",
+    "url": "https://www.autonews.com/automotive-stocks-accelerate-electric-vehicle-adoption",
+    "symbol": "TSLA, GM"
+  },
+  {
+    "id": 27,
+    "title": "Retail Stocks Up as Back-to-School Shopping Begins",
+    "description": "Retail stocks are up as back-to-school shopping begins. Companies like Target and Macy's are reporting higher foot traffic and increased sales.",
+    "date": "2024-07-07",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/retail-stocks-up-back-to-school-shopping",
+    "symbol": "TGT, M"
+  },
+  {
+    "id": 28,
+    "title": "Cloud Computing Stocks Rise on Increased Adoption",
+    "description": "Cloud computing stocks are rising as more businesses adopt cloud solutions. Companies such as Microsoft and Amazon are seeing increased demand for their cloud services.",
+    "date": "2024-07-07",
+    "source": "TechCrunch",
+    "url": "https://www.techcrunch.com/cloud-computing-stocks-rise-adoption",
+    "symbol": "MSFT, AMZN"
+  },
+  {
+    "id": 29,
+    "title": "Gaming Stocks Gain as Industry Sees Continued Growth",
+    "description": "Gaming stocks are gaining as the industry continues to grow. Companies like Electronic Arts and Activision Blizzard are seeing strong sales and positive stock movements.",
+    "date": "2024-07-07",
+    "source": "GameSpot",
+    "url": "https://www.gamespot.com/gaming-stocks-gain-industry-growth",
+    "symbol": "EA, ATVI"
+  },
+  {
+    "id": 30,
+    "title": "Telecom Industry Sees Stock Boost from 5G Expansion",
+    "description": "The telecom industry is seeing a stock boost from the ongoing expansion of 5G networks. Companies such as T-Mobile and Nokia are leading the way with significant investments in 5G technology.",
+    "date": "2024-07-07",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/telecom-industry-stock-boost-5g-expansion",
+    "symbol": "TMUS, NOK"
+  }
+]

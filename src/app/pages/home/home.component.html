@@ -1,0 +1,11 @@
+<div class="home">
+  <div class="home-news-type-toggle">
+    <app-news-type-toggle (handleChange)="handleTypeChange($event)" />
+  </div>
+  <div class="home-search-bar">
+    <app-search-bar
+      [showAddSymbolBtn]="selectedType === NewsType.Symbol"
+      (addSymbol)="handleAddSymbol($event)"
+    />
+  </div>
+</div>

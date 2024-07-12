@@ -1,0 +1,12 @@
+<mat-button-toggle-group
+  name="fontStyle"
+  aria-label="Font Style"
+  (change)="handleTypeChange($event)"
+  [value]="NewsType.Market"
+>
+  @for (newsType of newsTypes; track newsType.value) {
+  <mat-button-toggle [value]="newsType.value">{{
+    newsType.title
+  }}</mat-button-toggle>
+  }
+</mat-button-toggle-group>

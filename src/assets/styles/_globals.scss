@@ -1,0 +1,12 @@
+@import 'home';
+@import 'news';
+@import 'article';
+@import 'search-bar';
+
+.mat-typography {
+  background-color: #191c1c;
+
+  .app-wrapper {
+    padding: 15px;
+  }
+}
