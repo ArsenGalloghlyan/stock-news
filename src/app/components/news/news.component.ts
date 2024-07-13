@@ -7,7 +7,7 @@ import { StockSymbolService } from '../../core/services/stock-symbol.service';
 import { StockSymbol } from '../../core/interfaces/symbol';
 import { MatChip, MatChipSet } from '@angular/material/chips';
 import { AsyncPipe } from '@angular/common';
-import { StockNewsDataTableComponent } from '../../components/stock-news-data-table/stock-news-data-table.component';
+import { StockNewsDataTableComponent } from '../stock-news-data-table/stock-news-data-table.component';
 
 @Component({
   selector: 'app-news',

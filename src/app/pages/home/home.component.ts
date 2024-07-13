@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { SearchBarComponent } from '../../components/search-bar/search-bar.component';
 import { NewsTypeToggleComponent } from '../../components/news-type-toggle/news-type-toggle.component';
 import { NewsType } from '../../core/enums/news-type';
-import { NewsComponent } from '../news/news.component';
+import { NewsComponent } from '../../components/news/news.component';
 
 @Component({
   selector: 'app-home',

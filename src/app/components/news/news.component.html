@@ -1,0 +1,22 @@
+<div class="news">
+  @if (newsType() === NewsType.Symbol) {
+    @if (selectedStockSymbols$ | async; as selectedStockSymbol) {
+      <mat-chip-set>
+        @for (
+          stockSymbol of selectedStockSymbols$ | async;
+          track stockSymbol.id
+        ) {
+          <mat-chip (click)="handleStockSymbolDeselect(stockSymbol.id)">{{
+            stockSymbol.name
+          }}</mat-chip>
+        }
+      </mat-chip-set>
+      @if (selectedStockSymbol.length) {
+        <span class="news-tip">*Click to remove</span>
+      }
+    }
+  }
+  @if (newsSource$ | async; as newsSource) {
+    <app-stock-news-data-table [newsSource]="newsSource" />
+  }
+</div>
