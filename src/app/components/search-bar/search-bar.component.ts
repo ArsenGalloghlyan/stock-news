@@ -6,7 +6,7 @@ import { MatButton } from '@angular/material/button';
 import { RecentSearch } from '../../core/interfaces/recent-search';
 import { SearchAutocompleteComponent } from '../autocomplete/search-autocomplete.component';
 import { StockSymbol } from '../../core/interfaces/symbol';
-import { RECENT_SEARCH_LC_NAME } from '../../core/helpers/constants';
+import { RECENT_SEARCH_PROP_NAME } from '../../core/helpers/constants';
 import { LocalStorageService } from '../../core/services/local-storage.service';
 import { StockSymbolService } from '../../core/services/stock-symbol.service';
 import { firstValueFrom, Observable } from 'rxjs';
@@ -49,16 +49,12 @@ export class SearchBarComponent implements OnInit {
   }
 
   protected async handleAddSymbol(): Promise<void> {
-    if (!this.inputValue) {
-      return;
-    }
-
-    if (!this.selectedStockSymbol) {
+    if (!this.inputValue || !this.selectedStockSymbol) {
       return;
     }
 
     const recentSearchDataStr = this.localStorageService.getItem(
-      RECENT_SEARCH_LC_NAME,
+      RECENT_SEARCH_PROP_NAME,
     );
     let recentSearchData: Array<RecentSearch> = [];
     if (recentSearchDataStr) {
@@ -66,7 +62,7 @@ export class SearchBarComponent implements OnInit {
     }
 
     this.localStorageService.setItem(
-      RECENT_SEARCH_LC_NAME,
+      RECENT_SEARCH_PROP_NAME,
       JSON.stringify(recentSearchData.concat([this.selectedStockSymbol])),
     );
     this.initRecentSearchData();
@@ -81,16 +77,20 @@ export class SearchBarComponent implements OnInit {
   public async handleValueSelect(stockSymbolId: number): Promise<void> {
     const selectedStockSymbol = (
       await firstValueFrom(this.possibleSymbols$)
-    ).find((symbol) => symbol.id === stockSymbolId);
+    ).find((symbol: StockSymbol) => symbol.id === stockSymbolId);
     this.selectedStockSymbol = selectedStockSymbol;
     this.inputValue = selectedStockSymbol?.name ?? '';
     this.showDropdown = false;
   }
 
   private initRecentSearchData(): void {
-    this.recentSearchData = JSON.parse(
-      this.localStorageService.getItem(RECENT_SEARCH_LC_NAME) || '{}',
+    const recentSearchDataStr = this.localStorageService.getItem(
+      RECENT_SEARCH_PROP_NAME,
     );
+    if (!recentSearchDataStr) {
+      return;
+    }
+    this.recentSearchData = JSON.parse(recentSearchDataStr);
   }
 
   private resetValues(): void {

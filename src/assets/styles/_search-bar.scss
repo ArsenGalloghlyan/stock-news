@@ -4,10 +4,6 @@
   align-items: center;
   justify-content: center;
 
-  .mat-mdc-form-field {
-    min-width: 350px;
-  }
-
   &-input {
     display: flex;
     flex-direction: column;
@@ -24,6 +20,7 @@
       padding: 8px;
       overflow: hidden;
       overflow-y: auto;
+      z-index: 100;
 
       &-title {
         color: #bec9c8;

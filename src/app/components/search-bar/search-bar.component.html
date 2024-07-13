@@ -1,5 +1,9 @@
-<div class="search-bar" appOutsideClick (handleEvent)="showDropdown = false">
-  <div class="search-bar-input">
+<div class="search-bar">
+  <div
+    class="search-bar-input"
+    appOutsideClick
+    (handleEvent)="showDropdown = false"
+  >
     <app-search-autocomplete
       (onFocus)="showDropdown = true"
       (valueChange)="handleInputValueChange($event)"
