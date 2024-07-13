@@ -1,1 +1,3 @@
-export type RecentSearch = string;
+import { StockSymbol } from './symbol';
+
+export type RecentSearch = StockSymbol;

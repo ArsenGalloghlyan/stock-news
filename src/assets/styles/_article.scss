@@ -1,0 +1,37 @@
+.article {
+  max-width: 650px;
+  margin: 20px auto 0 auto;
+  color: #bec9c8;
+
+  &-title {
+    font-size: 24px;
+  }
+
+  &-sub-title {
+    display: flex;
+    font-size: 12px;
+    line-height: 12px;
+
+    &-elem {
+      margin-right: 8px;
+      padding-right: 8px;
+      border-right: 1px solid #bec9c8;
+
+      &:last-child {
+        margin-right: 0;
+        padding-right: 0;
+        border: none;
+      }
+    }
+  }
+
+  &-content {
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: justify;
+
+    &-img {
+      max-width: 100%;
+    }
+  }
+}

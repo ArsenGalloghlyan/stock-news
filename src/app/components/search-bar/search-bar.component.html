@@ -19,7 +19,7 @@
               ) {
                 <li
                   class="search-bar-input-dropdown-list-item"
-                  (click)="handleValueSelect(stockSymbol.name)"
+                  (click)="handleValueSelect(stockSymbol.id)"
                 >
                   {{ stockSymbol.name }}
                 </li>
@@ -30,9 +30,9 @@
               @for (searchData of recentSearchData; track searchData) {
                 <li
                   class="search-bar-input-dropdown-list-item"
-                  (click)="handleValueSelect(searchData)"
+                  (click)="handleValueSelect(searchData.id)"
                 >
-                  {{ searchData }}
+                  {{ searchData.name }}
                 </li>
               }
             }

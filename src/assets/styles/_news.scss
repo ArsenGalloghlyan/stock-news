@@ -1,0 +1,11 @@
+.news {
+  .mat-mdc-row .mat-mdc-cell {
+    cursor: pointer;
+  }
+
+  .no-data {
+    color: #bec9c8;
+    font-size: 14px;
+    padding: 8px;
+  }
+}

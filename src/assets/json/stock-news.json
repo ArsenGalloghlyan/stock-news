@@ -108,6 +108,15 @@
     "symbol": "SHOP, EBAY"
   },
   {
+    "id": 47,
+    "title": "Oil Prices Stabilize After Volatile Week",
+    "description": "Oil prices stabilized today after a volatile week, with analysts predicting steady demand growth in the coming months.",
+    "source": "CNBC",
+    "date": "2024-07-12",
+    "url": "https://www.cnbc.com/oil-prices-stabilize",
+    "category": "Commodities"
+  },
+  {
     "id": 13,
     "title": "Renewable Energy Stocks Surge on Government Incentives",
     "description": "Renewable energy stocks are surging as governments introduce new incentives for clean energy projects. Companies like Tesla and NextEra Energy are seeing significant growth in stock prices.",
@@ -116,24 +125,17 @@
     "url": "https://www.bloomberg.com/renewable-energy-stocks-surge-government-incentives",
     "symbol": "TSLA, NEE"
   },
+
   {
-    "id": 14,
-    "title": "Real Estate Stocks Boosted by Housing Market Recovery",
-    "description": "Real estate stocks are getting a boost from the housing market's recovery. Companies such as Zillow and Redfin are seeing increased activity and higher valuations.",
-    "date": "2024-07-04",
-    "source": "Reuters",
-    "url": "https://www.reuters.com/real-estate-stocks-boosted-housing-market-recovery",
-    "symbol": "Z, RDFN"
+    "id": 34,
+    "title": "US Dollar Strengthens Against Major Currencies",
+    "description": "The US Dollar strengthened against major currencies today as strong economic data boosted investor confidence in the US economy.",
+    "source": "Wall Street Journal",
+    "date": "2024-07-12",
+    "url": "https://www.wsj.com/us-dollar-strengthens",
+    "category": "Forex"
   },
-  {
-    "id": 15,
-    "title": "Social Media Stocks Rise on Increased User Engagement",
-    "description": "Social media stocks are rising as platforms report increased user engagement and advertising revenue. Companies like Facebook and Twitter are seeing positive market reactions.",
-    "date": "2024-07-04",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/social-media-stocks-rise-increased-user-engagement",
-    "symbol": "FB, TWTR"
-  },
+
   {
     "id": 16,
     "title": "Electric Vehicle Stocks Charge Ahead with New Models",
@@ -153,6 +155,15 @@
     "symbol": "REGN, VRTX"
   },
   {
+    "id": 45,
+    "title": "Retail Sales Surge as Consumer Confidence Grows",
+    "description": "Retail sales surged last month as consumer confidence grew, driven by a strong labor market and rising wages.",
+    "source": "Bloomberg",
+    "date": "2024-07-12",
+    "url": "https://www.bloomberg.com/retail-sales-surge",
+    "category": "Market News"
+  },
+  {
     "id": 18,
     "title": "Aerospace Stocks Lifted by Increased Air Travel",
     "description": "Aerospace stocks are being lifted by a rise in air travel demand. Companies like Boeing and Lockheed Martin are reporting increased orders and higher stock prices.",
@@ -162,13 +173,13 @@
     "symbol": "BA, LMT"
   },
   {
-    "id": 19,
-    "title": "Fintech Stocks Gain on Digital Banking Growth",
-    "description": "Fintech stocks are gaining traction as digital banking services grow in popularity. Companies such as Square and PayPal are reporting higher transaction volumes and stock price increases.",
-    "date": "2024-07-05",
-    "source": "Financial Times",
-    "url": "https://www.ft.com/fintech-stocks-gain-digital-banking-growth",
-    "symbol": "SQ, PYPL"
+    "id": 32,
+    "title": "Oil Prices Climb Amid Supply Concerns",
+    "description": "Oil prices rose sharply today as concerns over supply disruptions in the Middle East and increasing global demand pushed prices higher.",
+    "source": "CNBC",
+    "date": "2024-07-12",
+    "url": "https://www.cnbc.com/oil-prices-climb",
+    "category": "Commodities"
   },
   {
     "id": 20,
@@ -180,13 +191,23 @@
     "symbol": "NFLX, DIS"
   },
   {
-    "id": 21,
-    "title": "Tech Giants Invest in AI Startups",
-    "description": "Major tech giants are investing heavily in AI startups to stay ahead in the technology race. Companies like Alphabet and Amazon are leading the investment wave.",
-    "date": "2024-07-06",
-    "source": "TechCrunch",
-    "url": "https://www.techcrunch.com/tech-giants-invest-in-ai-startups",
-    "symbol": "GOOGL, AMZN"
+    "id": 37,
+    "title": "Cryptocurrency Market Sees Major Correction",
+    "description": "The cryptocurrency market saw a major correction today, with Bitcoin and other major cryptocurrencies losing significant value amid regulatory concerns.",
+    "source": "CoinDesk",
+    "date": "2024-07-12",
+    "url": "https://www.coindesk.com/crypto-market-correction",
+    "category": "Cryptocurrency"
+  },
+
+  {
+    "id": 31,
+    "title": "Federal Reserve Signals Possible Interest Rate Hike",
+    "description": "The Federal Reserve has hinted at a possible interest rate hike in the coming months as inflation pressures mount and the labor market continues to strengthen.",
+    "source": "Reuters",
+    "date": "2024-07-12",
+    "url": "https://www.reuters.com/federal-reserve-rate-hike",
+    "category": "Market News"
   },
   {
     "id": 22,
@@ -196,6 +217,15 @@
     "source": "Pharma Times",
     "url": "https://www.pharmatimes.com/pharmaceutical-companies-stock-boost-fda-approvals",
     "symbol": "MRK, BMY"
+  },
+  {
+    "id": 42,
+    "title": "Tech Giants Announce Major Mergers and Acquisitions",
+    "description": "Several tech giants announced major mergers and acquisitions, aiming to strengthen their market positions and expand their product offerings.",
+    "source": "TechCrunch",
+    "date": "2024-07-12",
+    "url": "https://www.techcrunch.com/tech-giants-mergers",
+    "category": "Technology"
   },
   {
     "id": 23,
@@ -223,6 +253,15 @@
     "source": "Financial Times",
     "url": "https://www.ft.com/banking-stocks-benefit-rising-interest-rates",
     "symbol": "GS, WFC"
+  },
+  {
+    "id": 50,
+    "title": "European Union Agrees on New Trade Deal",
+    "description": "The European Union agreed on a new trade deal aimed at reducing tariffs and boosting economic cooperation with key global partners.",
+    "source": "Bloomberg",
+    "date": "2024-07-12",
+    "url": "https://www.bloomberg.com/eu-trade-deal",
+    "category": "Market News"
   },
   {
     "id": 26,
@@ -269,24 +308,17 @@
     "url": "https://www.theverge.com/telecom-industry-stock-boost-5g-expansion",
     "symbol": "TMUS, NOK"
   },
+
   {
-    "id": 31,
-    "title": "Federal Reserve Signals Possible Interest Rate Hike",
-    "description": "The Federal Reserve has hinted at a possible interest rate hike in the coming months as inflation pressures mount and the labor market continues to strengthen.",
-    "source": "Reuters",
+    "id": 40,
+    "title": "Global Stocks Rally as Economic Data Surpasses Expectations",
+    "description": "Global stock markets surged today as economic data from major economies surpassed expectations, fueling optimism about a sustained economic recovery.",
+    "source": "Bloomberg",
     "date": "2024-07-12",
-    "url": "https://www.reuters.com/federal-reserve-rate-hike",
+    "url": "https://www.bloomberg.com/global-stocks-rally",
     "category": "Market News"
   },
-  {
-    "id": 32,
-    "title": "Oil Prices Climb Amid Supply Concerns",
-    "description": "Oil prices rose sharply today as concerns over supply disruptions in the Middle East and increasing global demand pushed prices higher.",
-    "source": "CNBC",
-    "date": "2024-07-12",
-    "url": "https://www.cnbc.com/oil-prices-climb",
-    "category": "Commodities"
-  },
+
   {
     "id": 33,
     "title": "Tech Sector Faces Volatility as Earnings Season Kicks Off",
@@ -296,15 +328,7 @@
     "url": "https://www.ft.com/tech-sector-volatility",
     "category": "Technology"
   },
-  {
-    "id": 34,
-    "title": "US Dollar Strengthens Against Major Currencies",
-    "description": "The US Dollar strengthened against major currencies today as strong economic data boosted investor confidence in the US economy.",
-    "source": "Wall Street Journal",
-    "date": "2024-07-12",
-    "url": "https://www.wsj.com/us-dollar-strengthens",
-    "category": "Forex"
-  },
+
   {
     "id": 35,
     "title": "Gold Prices Decline Amid Rising Interest Rates",
@@ -323,15 +347,7 @@
     "url": "https://www.reuters.com/european-markets-mixed",
     "category": "Market News"
   },
-  {
-    "id": 37,
-    "title": "Cryptocurrency Market Sees Major Correction",
-    "description": "The cryptocurrency market saw a major correction today, with Bitcoin and other major cryptocurrencies losing significant value amid regulatory concerns.",
-    "source": "CoinDesk",
-    "date": "2024-07-12",
-    "url": "https://www.coindesk.com/crypto-market-correction",
-    "category": "Cryptocurrency"
-  },
+
   {
     "id": 38,
     "title": "Bond Yields Rise on Inflation Concerns",
@@ -340,6 +356,15 @@
     "date": "2024-07-12",
     "url": "https://www.bloomberg.com/bond-yields-rise",
     "category": "Market News"
+  },
+  {
+    "id": 21,
+    "title": "Tech Giants Invest in AI Startups",
+    "description": "Major tech giants are investing heavily in AI startups to stay ahead in the technology race. Companies like Alphabet and Amazon are leading the investment wave.",
+    "date": "2024-07-06",
+    "source": "TechCrunch",
+    "url": "https://www.techcrunch.com/tech-giants-invest-in-ai-startups",
+    "symbol": "GOOGL, AMZN"
   },
   {
     "id": 39,
@@ -351,15 +376,6 @@
     "category": "Real Estate"
   },
   {
-    "id": 40,
-    "title": "Global Stocks Rally as Economic Data Surpasses Expectations",
-    "description": "Global stock markets surged today as economic data from major economies surpassed expectations, fueling optimism about a sustained economic recovery.",
-    "source": "Bloomberg",
-    "date": "2024-07-12",
-    "url": "https://www.bloomberg.com/global-stocks-rally",
-    "category": "Market News"
-  },
-  {
     "id": 41,
     "title": "Asian Markets Gain on Strong Export Data",
     "description": "Asian markets closed higher today as strong export data from China boosted investor confidence in the region's economic recovery.",
@@ -367,15 +383,6 @@
     "date": "2024-07-12",
     "url": "https://www.nikkei.com/asian-markets-gain",
     "category": "Market News"
-  },
-  {
-    "id": 42,
-    "title": "Tech Giants Announce Major Mergers and Acquisitions",
-    "description": "Several tech giants announced major mergers and acquisitions, aiming to strengthen their market positions and expand their product offerings.",
-    "source": "TechCrunch",
-    "date": "2024-07-12",
-    "url": "https://www.techcrunch.com/tech-giants-mergers",
-    "category": "Technology"
   },
   {
     "id": 43,
@@ -387,6 +394,15 @@
     "category": "Market News"
   },
   {
+    "id": 14,
+    "title": "Real Estate Stocks Boosted by Housing Market Recovery",
+    "description": "Real estate stocks are getting a boost from the housing market's recovery. Companies such as Zillow and Redfin are seeing increased activity and higher valuations.",
+    "date": "2024-07-04",
+    "source": "Reuters",
+    "url": "https://www.reuters.com/real-estate-stocks-boosted-housing-market-recovery",
+    "symbol": "Z, RDFN"
+  },
+  {
     "id": 44,
     "title": "Cryptocurrency Market Recovers After Recent Dip",
     "description": "The cryptocurrency market showed signs of recovery following a recent dip, with Bitcoin and Ethereum leading the rebound.",
@@ -394,15 +410,6 @@
     "date": "2024-07-12",
     "url": "https://www.coindesk.com/crypto-market-recovers",
     "category": "Cryptocurrency"
-  },
-  {
-    "id": 45,
-    "title": "Retail Sales Surge as Consumer Confidence Grows",
-    "description": "Retail sales surged last month as consumer confidence grew, driven by a strong labor market and rising wages.",
-    "source": "Bloomberg",
-    "date": "2024-07-12",
-    "url": "https://www.bloomberg.com/retail-sales-surge",
-    "category": "Market News"
   },
   {
     "id": 46,
@@ -414,13 +421,13 @@
     "category": "Finance"
   },
   {
-    "id": 47,
-    "title": "Oil Prices Stabilize After Volatile Week",
-    "description": "Oil prices stabilized today after a volatile week, with analysts predicting steady demand growth in the coming months.",
+    "id": 15,
+    "title": "Social Media Stocks Rise on Increased User Engagement",
+    "description": "Social media stocks are rising as platforms report increased user engagement and advertising revenue. Companies like Facebook and Twitter are seeing positive market reactions.",
+    "date": "2024-07-04",
     "source": "CNBC",
-    "date": "2024-07-12",
-    "url": "https://www.cnbc.com/oil-prices-stabilize",
-    "category": "Commodities"
+    "url": "https://www.cnbc.com/social-media-stocks-rise-increased-user-engagement",
+    "symbol": "FB, TWTR"
   },
   {
     "id": 48,
@@ -432,21 +439,21 @@
     "category": "Market News"
   },
   {
+    "id": 19,
+    "title": "Fintech Stocks Gain on Digital Banking Growth",
+    "description": "Fintech stocks are gaining traction as digital banking services grow in popularity. Companies such as Square and PayPal are reporting higher transaction volumes and stock price increases.",
+    "date": "2024-07-05",
+    "source": "Financial Times",
+    "url": "https://www.ft.com/fintech-stocks-gain-digital-banking-growth",
+    "symbol": "SQ, PYPL"
+  },
+  {
     "id": 49,
     "title": "US Job Market Shows Continued Strength",
     "description": "The US job market showed continued strength as the latest employment report revealed robust job creation and declining unemployment rates.",
     "source": "Reuters",
     "date": "2024-07-12",
     "url": "https://www.reuters.com/us-job-market-strength",
-    "category": "Market News"
-  },
-  {
-    "id": 50,
-    "title": "European Union Agrees on New Trade Deal",
-    "description": "The European Union agreed on a new trade deal aimed at reducing tariffs and boosting economic cooperation with key global partners.",
-    "source": "Bloomberg",
-    "date": "2024-07-12",
-    "url": "https://www.bloomberg.com/eu-trade-deal",
     "category": "Market News"
   }
 ]

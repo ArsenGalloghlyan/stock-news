@@ -1,1 +1,31 @@
-<p>article works!</p>
+<div class="article">
+  @if (article$ | async; as article) {
+    <h3 class="article-title">
+      {{ article.title }}
+    </h3>
+    <div class="article-sub-title">
+      <span class="article-sub-title-elem">{{ article.date | date }}</span>
+      <span class="article-sub-title-elem">{{ article.source }}</span>
+      @if (article.symbol) {
+        <span class="article-sub-title-elem">{{ article.symbol }}</span>
+      }
+    </div>
+    <div class="article-content">
+      {{ article.description }}
+      <br />
+      <br />
+      {{ article.description }}
+      <br />
+      <br />
+      <img
+        class="article-content-img"
+        src="https://blackwellglobal.com/wp-content/uploads/2020/05/Trade-News-Releases-Blackwell-Global-Forex-Broker.png"
+        alt="trading"
+      />
+      <br />
+      <br />
+      {{ article.description }}
+      {{ article.description }}
+    </div>
+  }
+</div>

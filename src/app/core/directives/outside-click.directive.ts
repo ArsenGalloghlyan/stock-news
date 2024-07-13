@@ -16,7 +16,7 @@ export class OutsideClickDirective {
   private elementRef: ElementRef = inject(ElementRef);
 
   @HostListener('document:mousedown', ['$event'])
-  onClick(event: any): void {
+  onClick(event: Event): void {
     if (!this.elementRef.nativeElement.contains(event.target)) {
       this.handleEvent.emit();
     }
