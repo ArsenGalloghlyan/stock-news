@@ -1,7 +1,7 @@
 .search-bar {
   display: flex;
   gap: 50px;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 
   .mat-mdc-form-field {
@@ -11,12 +11,50 @@
   &-input {
     display: flex;
     flex-direction: column;
+    position: relative;
 
-    &-recent-search {
-      min-width: 350px;
-      height: 350px;
-      border: 1px solid white;
+    &-dropdown {
+      position: absolute;
+      top: 52px;
+      background-color: #191c1c;
+      min-width: 360px;
+      max-height: 350px;
+      border: 1px solid #bec9c8;
       border-radius: 5px;
+      padding: 8px;
+      overflow: hidden;
+      overflow-y: auto;
+
+      &-title {
+        color: #bec9c8;
+        font-size: 16px !important;
+      }
+
+      &-list {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        &-item {
+          color: #bec9c8;
+          font-size: 14px;
+          cursor: pointer;
+          margin-bottom: 6px;
+
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+
+        &:empty {
+          &::before {
+            content: 'No data found';
+            color: #bec9c8;
+            font-size: 14px;
+          }
+        }
+      }
     }
   }
 }

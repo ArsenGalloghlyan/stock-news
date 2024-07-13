@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "AAPL"
+  },
+  {
+    "id": 2,
+    "name": "MSFT"
+  },
+  {
+    "id": 3,
+    "name": "GOOGL"
+  },
+  {
+    "id": 4,
+    "name": "AMZN"
+  },
+  {
+    "id": 5,
+    "name": "FB"
+  },
+  {
+    "id": 6,
+    "name": "TSLA"
+  },
+  {
+    "id": 7,
+    "name": "NFLX"
+  },
+  {
+    "id": 8,
+    "name": "NVDA"
+  },
+  {
+    "id": 9,
+    "name": "BRK.B"
+  },
+  {
+    "id": 10,
+    "name": "V"
+  },
+  {
+    "id": 11,
+    "name": "GOLD"
+  },
+  {
+    "id": 12,
+    "name": "SILVER"
+  },
+  {
+    "id": 13,
+    "name": "OIL"
+  },
+  {
+    "id": 14,
+    "name": "NG"
+  },
+  {
+    "id": 15,
+    "name": "CORN"
+  },
+  {
+    "id": 16,
+    "name": "WHEAT"
+  },
+  {
+    "id": 17,
+    "name": "SOYB"
+  },
+  {
+    "id": 18,
+    "name": "COFFEE"
+  },
+  {
+    "id": 19,
+    "name": "COTTON"
+  },
+  {
+    "id": 20,
+    "name": "SUGAR"
+  },
+  {
+    "id": 21,
+    "name": "EUR/USD"
+  },
+  {
+    "id": 22,
+    "name": "GBP/USD"
+  },
+  {
+    "id": 23,
+    "name": "USD/JPY"
+  },
+  {
+    "id": 24,
+    "name": "USD/CHF"
+  },
+  {
+    "id": 25,
+    "name": "AUD/USD"
+  },
+  {
+    "id": 26,
+    "name": "USD/CAD"
+  },
+  {
+    "id": 27,
+    "name": "NZD/USD"
+  },
+  {
+    "id": 28,
+    "name": "EUR/GBP"
+  },
+  {
+    "id": 29,
+    "name": "EUR/JPY"
+  },
+  {
+    "id": 30,
+    "name": "GBP/JPY"
+  }
+]

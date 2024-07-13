@@ -1,0 +1,36 @@
+.autocomplete {
+  position: relative;
+
+  &-search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #717c86;
+    border-radius: 8px;
+    padding: 14px;
+    color: #bec9c8;
+    gap: 8px;
+    min-width: 350px;
+
+    &-icon {
+      background-image: url('../images/icons/search-icon.svg');
+      width: 14px;
+      height: 14px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    &-input {
+      border: none;
+      background-color: transparent;
+      color: #bec9c8;
+      flex: 1;
+
+      &:focus,
+      &:active,
+      &:visited {
+        outline: none;
+      }
+    }
+  }
+}

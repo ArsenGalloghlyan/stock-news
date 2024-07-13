@@ -1,0 +1,12 @@
+<div class="autocomplete">
+  <div class="autocomplete-search-box">
+    <span class="autocomplete-search-box-icon"></span>
+    <input
+      type="text"
+      class="autocomplete-search-box-input"
+      (input)="valueChange.emit($any($event.target)?.value)"
+      (focus)="onFocus.emit()"
+      [value]="value()"
+    />
+  </div>
+</div>

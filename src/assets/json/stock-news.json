@@ -268,5 +268,185 @@
     "source": "The Verge",
     "url": "https://www.theverge.com/telecom-industry-stock-boost-5g-expansion",
     "symbol": "TMUS, NOK"
+  },
+  {
+    "id": 31,
+    "title": "Federal Reserve Signals Possible Interest Rate Hike",
+    "description": "The Federal Reserve has hinted at a possible interest rate hike in the coming months as inflation pressures mount and the labor market continues to strengthen.",
+    "source": "Reuters",
+    "date": "2024-07-12",
+    "url": "https://www.reuters.com/federal-reserve-rate-hike",
+    "category": "Market News"
+  },
+  {
+    "id": 32,
+    "title": "Oil Prices Climb Amid Supply Concerns",
+    "description": "Oil prices rose sharply today as concerns over supply disruptions in the Middle East and increasing global demand pushed prices higher.",
+    "source": "CNBC",
+    "date": "2024-07-12",
+    "url": "https://www.cnbc.com/oil-prices-climb",
+    "category": "Commodities"
+  },
+  {
+    "id": 33,
+    "title": "Tech Sector Faces Volatility as Earnings Season Kicks Off",
+    "description": "The tech sector is experiencing increased volatility as earnings season begins, with investors closely watching key reports from major tech companies.",
+    "source": "Financial Times",
+    "date": "2024-07-12",
+    "url": "https://www.ft.com/tech-sector-volatility",
+    "category": "Technology"
+  },
+  {
+    "id": 34,
+    "title": "US Dollar Strengthens Against Major Currencies",
+    "description": "The US Dollar strengthened against major currencies today as strong economic data boosted investor confidence in the US economy.",
+    "source": "Wall Street Journal",
+    "date": "2024-07-12",
+    "url": "https://www.wsj.com/us-dollar-strengthens",
+    "category": "Forex"
+  },
+  {
+    "id": 35,
+    "title": "Gold Prices Decline Amid Rising Interest Rates",
+    "description": "Gold prices declined as rising interest rates reduced the appeal of the precious metal as a safe-haven investment.",
+    "source": "MarketWatch",
+    "date": "2024-07-12",
+    "url": "https://www.marketwatch.com/gold-prices-decline",
+    "category": "Commodities"
+  },
+  {
+    "id": 36,
+    "title": "European Markets Mixed as Investors Digest Economic Data",
+    "description": "European markets showed mixed performance as investors digested a slew of economic data and corporate earnings reports.",
+    "source": "Reuters",
+    "date": "2024-07-12",
+    "url": "https://www.reuters.com/european-markets-mixed",
+    "category": "Market News"
+  },
+  {
+    "id": 37,
+    "title": "Cryptocurrency Market Sees Major Correction",
+    "description": "The cryptocurrency market saw a major correction today, with Bitcoin and other major cryptocurrencies losing significant value amid regulatory concerns.",
+    "source": "CoinDesk",
+    "date": "2024-07-12",
+    "url": "https://www.coindesk.com/crypto-market-correction",
+    "category": "Cryptocurrency"
+  },
+  {
+    "id": 38,
+    "title": "Bond Yields Rise on Inflation Concerns",
+    "description": "Bond yields rose as investors reacted to growing concerns about inflation and the potential for tighter monetary policy.",
+    "source": "Bloomberg",
+    "date": "2024-07-12",
+    "url": "https://www.bloomberg.com/bond-yields-rise",
+    "category": "Market News"
+  },
+  {
+    "id": 39,
+    "title": "US Housing Market Shows Signs of Cooling",
+    "description": "The US housing market is showing signs of cooling as rising mortgage rates and higher home prices begin to weigh on demand.",
+    "source": "CNBC",
+    "date": "2024-07-12",
+    "url": "https://www.cnbc.com/us-housing-market-cooling",
+    "category": "Real Estate"
+  },
+  {
+    "id": 40,
+    "title": "Global Stocks Rally as Economic Data Surpasses Expectations",
+    "description": "Global stock markets surged today as economic data from major economies surpassed expectations, fueling optimism about a sustained economic recovery.",
+    "source": "Bloomberg",
+    "date": "2024-07-12",
+    "url": "https://www.bloomberg.com/global-stocks-rally",
+    "category": "Market News"
+  },
+  {
+    "id": 41,
+    "title": "Asian Markets Gain on Strong Export Data",
+    "description": "Asian markets closed higher today as strong export data from China boosted investor confidence in the region's economic recovery.",
+    "source": "Nikkei Asia",
+    "date": "2024-07-12",
+    "url": "https://www.nikkei.com/asian-markets-gain",
+    "category": "Market News"
+  },
+  {
+    "id": 42,
+    "title": "Tech Giants Announce Major Mergers and Acquisitions",
+    "description": "Several tech giants announced major mergers and acquisitions, aiming to strengthen their market positions and expand their product offerings.",
+    "source": "TechCrunch",
+    "date": "2024-07-12",
+    "url": "https://www.techcrunch.com/tech-giants-mergers",
+    "category": "Technology"
+  },
+  {
+    "id": 43,
+    "title": "European Central Bank Maintains Interest Rates",
+    "description": "The European Central Bank decided to keep interest rates unchanged, citing the need for continued economic support amid moderate growth.",
+    "source": "Reuters",
+    "date": "2024-07-12",
+    "url": "https://www.reuters.com/ecb-interest-rates",
+    "category": "Market News"
+  },
+  {
+    "id": 44,
+    "title": "Cryptocurrency Market Recovers After Recent Dip",
+    "description": "The cryptocurrency market showed signs of recovery following a recent dip, with Bitcoin and Ethereum leading the rebound.",
+    "source": "CoinDesk",
+    "date": "2024-07-12",
+    "url": "https://www.coindesk.com/crypto-market-recovers",
+    "category": "Cryptocurrency"
+  },
+  {
+    "id": 45,
+    "title": "Retail Sales Surge as Consumer Confidence Grows",
+    "description": "Retail sales surged last month as consumer confidence grew, driven by a strong labor market and rising wages.",
+    "source": "Bloomberg",
+    "date": "2024-07-12",
+    "url": "https://www.bloomberg.com/retail-sales-surge",
+    "category": "Market News"
+  },
+  {
+    "id": 46,
+    "title": "Goldman Sachs Reports Better-than-Expected Earnings",
+    "description": "Goldman Sachs reported better-than-expected earnings for the second quarter, driven by strong performance in its trading and investment banking divisions.",
+    "source": "Wall Street Journal",
+    "date": "2024-07-12",
+    "url": "https://www.wsj.com/goldman-sachs-earnings",
+    "category": "Finance"
+  },
+  {
+    "id": 47,
+    "title": "Oil Prices Stabilize After Volatile Week",
+    "description": "Oil prices stabilized today after a volatile week, with analysts predicting steady demand growth in the coming months.",
+    "source": "CNBC",
+    "date": "2024-07-12",
+    "url": "https://www.cnbc.com/oil-prices-stabilize",
+    "category": "Commodities"
+  },
+  {
+    "id": 48,
+    "title": "Emerging Markets Attract Increased Investor Interest",
+    "description": "Emerging markets are attracting increased investor interest as higher growth prospects and favorable demographics make them attractive destinations for capital.",
+    "source": "Financial Times",
+    "date": "2024-07-12",
+    "url": "https://www.ft.com/emerging-markets-interest",
+    "category": "Market News"
+  },
+  {
+    "id": 49,
+    "title": "US Job Market Shows Continued Strength",
+    "description": "The US job market showed continued strength as the latest employment report revealed robust job creation and declining unemployment rates.",
+    "source": "Reuters",
+    "date": "2024-07-12",
+    "url": "https://www.reuters.com/us-job-market-strength",
+    "category": "Market News"
+  },
+  {
+    "id": 50,
+    "title": "European Union Agrees on New Trade Deal",
+    "description": "The European Union agreed on a new trade deal aimed at reducing tariffs and boosting economic cooperation with key global partners.",
+    "source": "Bloomberg",
+    "date": "2024-07-12",
+    "url": "https://www.bloomberg.com/eu-trade-deal",
+    "category": "Market News"
   }
 ]

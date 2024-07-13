@@ -5,5 +5,6 @@ export interface News {
   date: string;
   source: string;
   url: string;
-  symbol: string;
+  symbol?: string;
+  category?: string;
 }

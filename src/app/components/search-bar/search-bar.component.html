@@ -1,23 +1,45 @@
-<div class="search-bar">
+<div class="search-bar" appOutsideClick (handleEvent)="showDropdown = false">
   <div class="search-bar-input">
-    <mat-form-field>
-      <mat-label>Search</mat-label>
-      <input
-        type="text"
-        matInput
-        [formControl]="inputFormControl"
-        (focus)="inputFocused = true"
-        (blur)="inputFocused = false"
-      />
-    </mat-form-field>
-    @if (!recentSearchData?.length && inputFocused) {
-    <div class="search-bar-input-recent-search">
-      <span>Recent Search</span>
-    </div>
+    <app-search-autocomplete
+      (onFocus)="showDropdown = true"
+      (valueChange)="handleInputValueChange($event)"
+      [value]="inputValue"
+    />
+    @if (showDropdown) {
+      <div class="search-bar-input-dropdown">
+        <h6 class="search-bar-input-dropdown-title">
+          {{ inputValue ? 'Possible Symbols' : 'Recent search' }}
+        </h6>
+        <ul class="search-bar-input-dropdown-list">
+          @if (inputValue) {
+            @if (possibleSymbols$ | async; as stockSymbols) {
+              @for (
+                stockSymbol of stockSymbols | stockSymbolFilter: inputValue;
+                track stockSymbol.id
+              ) {
+                <li
+                  class="search-bar-input-dropdown-list-item"
+                  (click)="handleValueSelect(stockSymbol.name)"
+                >
+                  {{ stockSymbol.name }}
+                </li>
+              }
+            }
+          } @else {
+            @if (recentSearchData.length) {
+              @for (searchData of recentSearchData; track searchData) {
+                <li
+                  class="search-bar-input-dropdown-list-item"
+                  (click)="handleValueSelect(searchData)"
+                >
+                  {{ searchData }}
+                </li>
+              }
+            }
+          }
+        </ul>
+      </div>
     }
   </div>
-
-  @if (showAddSymbolBtn()) {
   <button mat-flat-button (click)="handleAddSymbol()">+ Add symbol</button>
-  }
 </div>
