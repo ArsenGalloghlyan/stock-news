@@ -34,9 +34,9 @@ import { jsonParse } from '../../core/helpers/functions';
 })
 export class SearchBarComponent implements OnInit {
   protected inputValue = '';
-  private selectedStockSymbol?: StockSymbol;
   protected recentSearchData: Array<RecentSearch> = [];
   protected showDropdown = false;
+  private selectedStockSymbol?: StockSymbol;
 
   private stockSymbolService: StockSymbolService = inject(StockSymbolService);
   protected possibleSymbols$: Observable<Array<StockSymbol>> =
@@ -54,31 +54,42 @@ export class SearchBarComponent implements OnInit {
       return;
     }
 
-    const recentSearchData: Array<RecentSearch> =
-      jsonParse<Array<RecentSearch>>(
-        this.localStorageService.getItem(RECENT_SEARCH_PROP_NAME),
-      ) || [];
-
-    this.localStorageService.setItem(
-      RECENT_SEARCH_PROP_NAME,
-      JSON.stringify(recentSearchData.concat([this.selectedStockSymbol])),
-    );
-    this.initRecentSearchData();
+    this.checkStoredDataAndAdd();
     await this.stockSymbolService.addStockSymbol(this.selectedStockSymbol);
     this.resetValues();
   }
 
-  public handleInputValueChange(value: string): void {
+  protected handleInputValueChange(value: string): void {
     this.inputValue = value;
   }
 
-  public async handleValueSelect(stockSymbolId: number): Promise<void> {
+  protected async handleValueSelect(stockSymbolId: number): Promise<void> {
     const selectedStockSymbol = (
       await firstValueFrom(this.possibleSymbols$)
     ).find((symbol: StockSymbol) => symbol.id === stockSymbolId);
     this.selectedStockSymbol = selectedStockSymbol;
     this.inputValue = selectedStockSymbol?.name ?? '';
     this.showDropdown = false;
+  }
+
+  private checkStoredDataAndAdd(): void {
+    const recentSearchData: Array<RecentSearch> =
+      jsonParse<Array<RecentSearch>>(
+        this.localStorageService.getItem(RECENT_SEARCH_PROP_NAME),
+      ) || [];
+
+    if (
+      recentSearchData.findIndex(
+        (d) => d.id === this.selectedStockSymbol!.id,
+      ) !== -1
+    ) {
+      return;
+    }
+    this.localStorageService.setItem(
+      RECENT_SEARCH_PROP_NAME,
+      JSON.stringify(recentSearchData.concat([this.selectedStockSymbol!])),
+    );
+    this.initRecentSearchData();
   }
 
   private initRecentSearchData(): void {
