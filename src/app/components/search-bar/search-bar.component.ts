@@ -13,6 +13,7 @@ import { firstValueFrom, Observable } from 'rxjs';
 import { AsyncPipe } from '@angular/common';
 import { StockSymbolFilterPipe } from '../../core/pipes/stock-symbol-filter.pipe';
 import { OutsideClickDirective } from '../../core/directives/outside-click.directive';
+import { jsonParse } from '../../core/helpers/functions';
 
 @Component({
   selector: 'app-search-bar',
@@ -53,13 +54,10 @@ export class SearchBarComponent implements OnInit {
       return;
     }
 
-    const recentSearchDataStr = this.localStorageService.getItem(
-      RECENT_SEARCH_PROP_NAME,
-    );
-    let recentSearchData: Array<RecentSearch> = [];
-    if (recentSearchDataStr) {
-      recentSearchData = JSON.parse(recentSearchDataStr);
-    }
+    const recentSearchData: Array<RecentSearch> =
+      jsonParse<Array<RecentSearch>>(
+        this.localStorageService.getItem(RECENT_SEARCH_PROP_NAME),
+      ) || [];
 
     this.localStorageService.setItem(
       RECENT_SEARCH_PROP_NAME,
@@ -84,13 +82,10 @@ export class SearchBarComponent implements OnInit {
   }
 
   private initRecentSearchData(): void {
-    const recentSearchDataStr = this.localStorageService.getItem(
-      RECENT_SEARCH_PROP_NAME,
-    );
-    if (!recentSearchDataStr) {
-      return;
-    }
-    this.recentSearchData = JSON.parse(recentSearchDataStr);
+    this.recentSearchData =
+      jsonParse<Array<RecentSearch>>(
+        this.localStorageService.getItem(RECENT_SEARCH_PROP_NAME),
+      ) || [];
   }
 
   private resetValues(): void {
