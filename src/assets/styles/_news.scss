@@ -5,11 +5,11 @@
 
   &-tip {
     font-size: 8px;
-    color: #bec9c8;
+    color: var(--text-color);
   }
 
   .no-data {
-    color: #bec9c8;
+    color: var(--text-color);
     font-size: 14px;
     padding: 8px;
   }

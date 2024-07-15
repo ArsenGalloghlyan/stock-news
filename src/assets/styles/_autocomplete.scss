@@ -7,7 +7,7 @@
     border: 1px solid #717c86;
     border-radius: 8px;
     padding: 14px;
-    color: #bec9c8;
+    color: var(--text-color);
     gap: 8px;
     min-width: 350px;
 
@@ -23,7 +23,7 @@
     &-input {
       border: none;
       background-color: transparent;
-      color: #bec9c8;
+      color: var(--text-color);
       flex: 1;
 
       &:focus,

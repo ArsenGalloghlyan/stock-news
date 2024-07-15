@@ -1,7 +1,7 @@
 .article {
   max-width: 650px;
   margin: 20px auto 0 auto;
-  color: #bec9c8;
+  color: var(--text-color);
 
   &-title {
     font-size: 24px;
@@ -15,7 +15,7 @@
     &-elem {
       margin-right: 8px;
       padding-right: 8px;
-      border-right: 1px solid #bec9c8;
+      border-right: 1px solid var(--text-color);
 
       &:last-child {
         margin-right: 0;

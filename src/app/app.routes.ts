@@ -7,7 +7,8 @@ export const appRoutes: Route[] = [
     path: 'article/:id',
     loadComponent: () =>
       import('./pages/article/article.component').then(
-        (c) => c.ArticleComponent
+        (c) => c.ArticleComponent,
       ),
   },
+  { path: '**', redirectTo: '/' },
 ];
